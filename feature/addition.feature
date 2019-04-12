@@ -1,3 +1,4 @@
+@FJ @regresion
 Feature: Do a addition of 2 numbers
 
   Scenario: Addition test case
@@ -8,6 +9,7 @@ Feature: Do a addition of 2 numbers
     And I press = button to performance the operation
     Then I should have 70 as a sum
 
+  @AT09 @create_user
   Scenario Outline: Addition test case
     Given I have the calculator opened
     When I enter a first number: <first>

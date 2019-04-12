@@ -30,6 +30,7 @@ def step_impl(context, operator):
     :type context: behave.runner.Context
     """
     context.operator = operator
+    print(context.test)
 
 
 @step("I enter a second number: {second:d}")
